@@ -8,3 +8,4 @@ colorscheme darkblue
 autocmd FileType yaml nmap <buffer> <Backspace> :wa<CR>:!kubectl apply -f %<CR>
 autocmd FileType Python nmap <buffer> <Backspace> :wa<CR>:!python -u %<CR>
 autocmd FileType vim nmap <buffer> <Backspace> :wa<CR>:source %<CR>
+autocmd FileType sh nmap <buffer> <Backspace> :wa<CR>:!%<CR>
