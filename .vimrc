@@ -2,8 +2,10 @@ set nu
 set sw=4
 set ts=4
 set et
+set noeb
+set vb
 syntax on
-colorscheme darkblue
+colorscheme blue
 
 autocmd FileType yaml nmap <buffer> <Backspace> :wa<CR>:!kubectl apply -f %<CR>
 autocmd FileType Python nmap <buffer> <Backspace> :wa<CR>:!python -u %<CR>
